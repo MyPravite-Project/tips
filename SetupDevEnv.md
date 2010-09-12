@@ -103,6 +103,14 @@ Finally, set default Ruby
 
 ## Instal some gems
 
+For Github
+
+	gem install github launchy
+	
+For Rails
+
+	gem install rails
+
 For IRB
 
 	gem install wirble awesome_print hirb utility-belt
