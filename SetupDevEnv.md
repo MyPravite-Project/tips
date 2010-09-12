@@ -121,7 +121,7 @@ _If you get any error regarding the mysql gem try this_
 
 For IRB
 
-	gem install wirble awesome_print hirb utility-belt
+	gem install wirble awesome_print hirb utility-belt bond
 
 ## DO SOME MORE STUFF HERE
 
@@ -134,6 +134,13 @@ For IRB
 	cat ./ssh/id_rsa.pub | pbcopy
 
 ## [TextMate bundles](http://adventuresincoding.com/2010/05/10-textmate-bundlesplugins-to-boost-your-ruby-on-rails-development-productivity/)
+
+[Ruby on Rails](http://github.com/carlosbrando/ruby-on-rails-tmbundle)
+
+	mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+	cd ~/Library/Application\ Support/TextMate/Bundles
+	git clone git://github.com/carlosbrando/ruby-on-rails-tmbundle.git "Ruby on Rails.tmbundle"
+	osascript -e 'tell app "TextMate" to reload bundles'
 
 [AckMate](http://github.com/protocool/AckMate)
 
