@@ -1,6 +1,6 @@
-# Setup Development Environment
+# Setting Up Rails Development Environment on Mac OS X
 
-This is for my development environment on my Macs. This was done on a 64bit MBP with Mac OS X 10.6.4
+This is for my development environment on my Macs. This was done on a 64bit MBP and a 64bit iMac, both running Mac OS X 10.6.4
 
 Based on [The Install (Snow Leopard Edition)](http://blog.therubymug.com/blog/2010/05/20/the-install-osx.html)
 
