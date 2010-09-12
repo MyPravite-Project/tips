@@ -111,6 +111,10 @@ For Rails
 
 	gem install rails mysql
 
+ERROR: 
+
+	Couldn't create database for {"reconnect"=>false, "encoding"=>"utf8", "username"=>"root", "adapter"=>"mysql", "database"=>"test_development", "pool"=>5, "password"=>nil, "socket"=>"/tmp/mysql.sock"}, charset: utf8, collation: utf8_unicode_ci (if you set the charset manually, make sure you have a matching collation)
+
 _If you get any error regarding the mysql gem try this_
 
 	env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-dir=/usr/local --with-mysql-config=/usr/local/bin/mysql_config
@@ -129,7 +133,7 @@ For IRB
 
 	cat ./ssh/id_rsa.pub | pbcopy
 
-## TextMate bundles
+## [TextMate bundles](http://adventuresincoding.com/2010/05/10-textmate-bundlesplugins-to-boost-your-ruby-on-rails-development-productivity/)
 
 [AckMate](http://github.com/protocool/AckMate)
 
