@@ -109,7 +109,7 @@ For Github
 	
 For Rails
 
-	gem install rails mysql
+	gem install rails mysql capistrano capistrano-ext
 
 ERROR: 
 
