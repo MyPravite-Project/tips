@@ -1,6 +1,10 @@
 # Setup Development Environment
 
+This is for my development environment on my Macs. This was done on a 64bit MBP with Mac OS X 10.6.4
+
 Based on [The Install (Snow Leopard Edition)](http://blog.therubymug.com/blog/2010/05/20/the-install-osx.html)
+
+**I am not responsible for anything that may result from following the instructions below. Proceed at your own risk.**
 
 ## Setup Dotfiles
 
@@ -23,7 +27,7 @@ From
 
 ## Install [Xcode](http://developer.apple.com/technology/xcode.html)
 
-Don't use Xcode from DVD. Download the newest version.
+Be sure to have XCode Tools Version 3.2.1 (1613) or later (there were bugs with the dvd release version).
 
 ## Install Git
 
@@ -51,6 +55,22 @@ Then restart MySQL
 ## Install [RVM](http://rvm.beginrescueend.com/rvm/install/)
 
 	bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+
+Edit .bashrc / .profile or .bash_profile
+
+	[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+	
+Source your new .bashrc
+
+	source ~/.bashrc
+
+Then check if RVM installed ok:
+
+	type rvm | head -n1
+
+You should get:
+
+	rvm is a function
 
 ## Link Homebrew's Readline
 
@@ -81,6 +101,11 @@ Finally, set default Ruby
 
 	rvm --default 1.8.7@rails2
 
+## Instal some gems
+
+For IRB
+
+	gem install wirble awesome_print hirb utility-belt
 
 ## DO SOME MORE STUFF HERE
 
@@ -91,3 +116,13 @@ Finally, set default Ruby
 ## Copy SSH public key to GitHub
 
 	cat ./ssh/id_rsa.pub | pbcopy
+
+## TextMate bundles
+
+[AckMate](http://github.com/protocool/AckMate)
+
+	http://github.com/downloads/protocool/AckMate/AckMate.1.1.2.zip
+
+## Sources
+
+http://matthewhutchinson.net/2010/7/2/rvm-ree-and-postgres-on-osx-snow-leopard
