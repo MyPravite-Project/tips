@@ -109,7 +109,11 @@ For Github
 	
 For Rails
 
-	gem install rails
+	gem install rails mysql
+
+_If you get any error regarding the mysql gem try this_
+
+	env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-dir=/usr/local --with-mysql-config=/usr/local/bin/mysql_config
 
 For IRB
 
