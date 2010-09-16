@@ -149,3 +149,7 @@ For IRB
 ## Sources
 
 http://matthewhutchinson.net/2010/7/2/rvm-ree-and-postgres-on-osx-snow-leopard
+
+## PHP 5.3
+
+[PHP 5.3 on Snow Leopard](http://seancoates.com/blogs/php-53-on-snow-leopard)
