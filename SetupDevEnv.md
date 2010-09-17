@@ -29,6 +29,10 @@ From
 
 Be sure to have XCode Tools Version 3.2.1 (1613) or later (there were bugs with the dvd release version).
 
+## Install some tools
+
+  brew install wget
+
 ## Install Git
 
 	brew install git
@@ -122,6 +126,14 @@ _If you get any error regarding the mysql gem try this_
 For IRB
 
 	gem install wirble awesome_print hirb utility-belt bond
+
+## Install ImageMagick
+
+	brew install ghostscript
+
+(See [http://github.com/mxcl/homebrew/issues/issue/528](http://github.com/mxcl/homebrew/issues/issue/528) for SL printing problems)
+
+	brew install imagemagick
 
 ## DO SOME MORE STUFF HERE
 
