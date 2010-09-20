@@ -13,7 +13,6 @@ From
 	http://github.com/hashrocket/dotmatrix
 	http://github.com/jferris/config_files
 	http://github.com/ryanb/dotfiles
-	
 
 ## Remove system gems
 
@@ -110,6 +109,11 @@ Finally, set default Ruby
 For Github
 
 	gem install github launchy
+	
+Setup GitHub [Setting user name, email and GitHub token](http://help.github.com/git-email-settings/)
+	
+	git config --global user.name "Tekkub"
+	git config --global user.email "tekkub@gmail.com"
 	
 For Rails
 
