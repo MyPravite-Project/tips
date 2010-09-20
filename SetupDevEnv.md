@@ -113,7 +113,7 @@ For Github
 	
 For Rails
 
-	gem install rails mysql capistrano capistrano-ext
+	gem install rails mysql capistrano capistrano-ext heroku taps
 
 ERROR: 
 
