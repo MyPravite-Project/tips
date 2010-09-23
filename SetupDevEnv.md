@@ -161,6 +161,13 @@ For IRB
 [AckMate](http://github.com/protocool/AckMate)
 
 	http://github.com/downloads/protocool/AckMate/AckMate.1.1.2.zip
+	
+[Lua](http://github.com/textmate/lua.tmbundle)
+
+	mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+	cd ~/Library/Application\ Support/TextMate/Bundles
+	git clone http://github.com/textmate/lua.tmbundle.git
+	osascript -e 'tell app "TextMate" to reload bundles'
 
 ## Sources
 
