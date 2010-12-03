@@ -1,5 +1,19 @@
 # MySQL
 
+## Various tips
+
+### Find datadir
+
+    mysql> SHOW VARIABLES LIKE 'datadir';
+
+    +---------------+-----------------------+
+    | Variable_name | Value                 |
+    +---------------+-----------------------+
+    | datadir       | /usr/local/var/mysql/ |
+    +---------------+-----------------------+
+    1 row in set (0.00 sec)
+
+
 ## Backup and Restore
 
 ### Backup
