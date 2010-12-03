@@ -28,3 +28,10 @@ Unlock the dock
 # Sharing
 
   [Enable Screen Sharing or ARD Via SSH](http://www.farawaymac.com/mac-server/enable-screen-sharing-or-ard-via-ssh/)
+
+# Adding DivX/Xvid etc. into iTunes
+
+  /Developer/Tools/SetFile -c TVOD -t MooV [.avi moviefile]
+
+FILE TYPE, FOR: MooV<br />
+CREATOR, FOR: TVOD
