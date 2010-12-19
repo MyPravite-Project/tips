@@ -35,3 +35,15 @@ Unlock the dock
 
 FILE TYPE, FOR: MooV<br />
 CREATOR, FOR: TVOD
+
+# Add latency to localhost
+
+[Link](http://daniel.haxx.se/blog/2010/12/14/add-latency-to-localhost/)
+  
+To simulate a far away server, add RTT time to the localhost device. For example if we add 100 milliseconds (which then makes 200ms ping time to localhost):
+
+    tc qdisc add dev lo root handle 1:0 netem delay 100msec
+
+Restore it back to normal again with:
+
+    tc qdisc del dev lo root
