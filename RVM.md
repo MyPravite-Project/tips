@@ -2,6 +2,10 @@
 
 From [http://rheimbuch.posterous.com/rvm-and-textmate](http://rheimbuch.posterous.com/rvm-and-textmate)
 
+## NEW WAY
+
+SEE [http://rvm.beginrescueend.com/integration/textmate/](http://rvm.beginrescueend.com/integration/textmate/)
+
 ## From a terminal run
     
     rvm [ruby-version] --symlink textmate
@@ -23,4 +27,3 @@ Preferences -> Advanced -> Shell Variables
 Add a variable named TM\_RUBY
 
 Set the value of TM\_RUBY to: /Users/[username]/.rvm/bin/textmate_ruby
-
