@@ -29,3 +29,21 @@
 
 ### Update from remote
     git fetch [some name]
+    
+## Origin Master
+
+.git/config
+
+    [branch "master"]
+        remote = origin
+        merge = refs/heads/master
+        
+Or
+
+    git config branch.master.remote origin
+    git config branch.master.merge refs/heads/master
+    
+Globally
+
+    git config --global branch.master.remote origin
+    git config --global branch.master.merge refs/heads/master
