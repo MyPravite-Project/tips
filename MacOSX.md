@@ -11,7 +11,7 @@ You have to restart the Dock after making either change for it to take effect:
 
 # Dock
 
-Lock the dock
+Lock the Dock to Prevent Changes to Contents
 
 	defaults write com.apple.dock contents-immutable -bool true
 	osascript -e 'tell application "Dock" to quit'
@@ -20,6 +20,16 @@ Unlock the dock
 
 	defaults write com.apple.dock contents-immutable -bool false
 	osascript -e 'tell application "Dock" to quit'
+	
+Lock the Dock to Prevent Changes in Size
+
+	defaults write com.apple.Dock size-immutable -bool yes
+	killall Dock
+  
+Lock the Dock’s Position on the Screen
+
+	defaults write com.apple.Dock position-immutable -bool yes
+	killall Dock
 	
 # Finder
 
