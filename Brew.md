@@ -2,8 +2,17 @@
 
 ## Error: Cannot write to /usr/local
 
-    sudo chmod g+w /usr/local
-    sudo chgrp staff /usr/local
+    sudo chmod -R g+w /usr/local
+    sudo chgrp -R staff /usr/local
+
+or
+
+    sudo chown -R `whoami` /usr/local
+
+or
+
+    sudo chmod -R u+rwX /usr/local
+      
     
 # Brew commands
 
