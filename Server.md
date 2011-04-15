@@ -1,3 +1,7 @@
+# Railscast setup
+
+https://github.com/ryanb/railscasts/wiki/Server-Setup
+
 # Use logrotate
 
 From http://www.trottercashion.com/2010/04/21/logrotate-for-rails.html
