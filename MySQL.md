@@ -2,6 +2,40 @@
 
 ## Various tips
 
+### Start and Stop (Homebrew)
+
+Start
+
+    launchctl load -w ~/Library/LaunchAgents/com.mysql.mysqld.plist
+
+Stop
+
+    launchctl unload -w ~/Library/LaunchAgents/com.mysql.mysqld.plist
+
+
+### My.cnf (Homebrew)
+
+    /Users/[username]/.my.cnf
+    
+Config file:
+    
+    [mysqld]
+    #Max packetlength to send/receive from to server.
+    max_allowed_packet=64M
+    #socket = /var/mysql/mysql.sock
+    character-set-server = utf8
+    default-character-set = utf8
+
+    #This option makes InnoDB to store each created table into its own .ibd file.
+    innodb_file_per_table
+
+    [mysql]
+    default-character-set = utf8
+
+    [client]
+    socket = /tmp/mysql.sock
+    default-character-set=utf8
+
 ### Find datadir
 
     mysql> SHOW VARIABLES LIKE 'datadir';
