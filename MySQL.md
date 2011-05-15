@@ -22,7 +22,7 @@ Config file:
     [mysqld]
     #Max packetlength to send/receive from to server.
     max_allowed_packet=64M
-    #socket = /var/mysql/mysql.sock
+    socket = /tmp/mysql.sock
     character-set-server = utf8
     default-character-set = utf8
 
