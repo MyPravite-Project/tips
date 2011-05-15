@@ -23,18 +23,17 @@ Config file:
     #Max packetlength to send/receive from to server.
     max_allowed_packet=64M
     socket = /tmp/mysql.sock
-    character-set-server = utf8
-    default-character-set = utf8
+    collation_server = utf8_unicode_ci 
+    character_set_server = utf8
+    skip-character-set-client-handshake # enforce using of utf8 encoding in db
 
     #This option makes InnoDB to store each created table into its own .ibd file.
     innodb_file_per_table
 
     [mysql]
-    default-character-set = utf8
 
     [client]
     socket = /tmp/mysql.sock
-    default-character-set=utf8
 
 ### Find datadir
 
