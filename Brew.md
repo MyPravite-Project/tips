@@ -27,3 +27,14 @@ Update brew
 Update packages
 
     brew upgrade
+
+# Gnutls build error
+
+Remove dependencies (pkg-config, libgpg-error, libgcrypt, libtasn1)
+
+    for dep in $(brew deps gnutls); do brew remove --force $dep; done
+    
+Install Gnutls
+
+    brew install gnutls
+
