@@ -1,4 +1,12 @@
-# Port problems
+# Problems
+
+## Error starting application
+
+### NameError: uninitialized constant YAML::ENGINE
+
+    Create .rvmrc file under your product with "rvm 1.9.2" if you are using Ruby 1.9.2 for that project.
+
+## Port problems
 
 https://github.com/37signals/pow/issues/60
 
