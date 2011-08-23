@@ -57,3 +57,9 @@ To simulate a far away server, add RTT time to the localhost device. For example
 Restore it back to normal again with:
 
     tc qdisc del dev lo root
+    
+# Lion
+
+## Turn off zooming windows
+
+    defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool NO
