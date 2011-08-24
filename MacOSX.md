@@ -63,3 +63,17 @@ Restore it back to normal again with:
 ## Turn off zooming windows
 
     defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool NO
+
+## Screenshots
+
+Disable shadow
+
+    defaults write com.apple.screencapture disable-shadow -bool true
+    
+Change the type (jpeg, tiff og png)
+
+    defaults write com.apple.screencapture type jpeg
+    
+Restart SystemUI server
+
+    killall SystemUIServer
