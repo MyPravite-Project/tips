@@ -47,3 +47,13 @@ Globally
 
     git config --global branch.master.remote origin
     git config --global branch.master.merge refs/heads/master
+
+## Converting from Mercurial (hg)
+
+Use fast-export
+
+    git clone git://repo.or.cz/fast-export.git
+    git init git_repo
+    cd git_repo
+    ~/fast-export/hg-fast-export.sh -r /path/to/old/mercurial_repo
+    git checkout HEAD
