@@ -4,4 +4,4 @@
     
 # Remote SSH server directory to local server
 
-    rsync -avPE ssh [user]@[domain/ip]:[/path/to/directory/] .
+    rsync -avPe ssh [user]@[domain/ip]:[/path/to/directory/] .
