@@ -33,7 +33,11 @@ Lock the Dock’s Position on the Screen
 	
 # Finder
 
-  [How to restore a folder that has turned into a package in OS X](http://www.switchingtomac.com/tutorials/how-to-restore-a-folder-that-has-turned-into-a-package-in-os-x/) using [File Matey](http://www.macupdate.com/info.php/id/25470/file-matey)
+* [How to restore a folder that has turned into a package in OS X](http://www.switchingtomac.com/tutorials/how-to-restore-a-folder-that-has-turned-into-a-package-in-os-x/) using [File Matey](http://www.macupdate.com/info.php/id/25470/file-matey)
+
+* "Open with" cleanup:
+	
+  /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/	LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -	domain system -domain user
   
 # Sharing
 
