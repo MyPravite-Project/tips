@@ -1,13 +1,16 @@
 # Dashboard
 
 To turn Dashboard off: 
-	defaults write com.apple.dashboard mcx-disabled -boolean YES 
+
+    defaults write com.apple.dashboard mcx-disabled -boolean YES 
 
 To turn Dashboard on:
-	defaults write com.apple.dashboard mcx-disabled -boolean NO 
+
+    defaults write com.apple.dashboard mcx-disabled -boolean NO 
 
 You have to restart the Dock after making either change for it to take effect:
-	killall Dock
+
+    killall Dock
 
 # Dock
 
@@ -36,8 +39,8 @@ Lock the Dock’s Position on the Screen
 * [How to restore a folder that has turned into a package in OS X](http://www.switchingtomac.com/tutorials/how-to-restore-a-folder-that-has-turned-into-a-package-in-os-x/) using [File Matey](http://www.macupdate.com/info.php/id/25470/file-matey)
 
 * "Open with" cleanup:
-	
-  /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/	LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -	domain system -domain user
+
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/	LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -	domain system -domain user
   
 # Sharing
 
@@ -45,7 +48,7 @@ Lock the Dock’s Position on the Screen
 
 # Adding DivX/Xvid etc. into iTunes
 
-  /Developer/Tools/SetFile -c TVOD -t MooV [.avi moviefile]
+    /Developer/Tools/SetFile -c TVOD -t MooV [.avi moviefile]
 
 FILE TYPE, FOR: MooV<br />
 CREATOR, FOR: TVOD
