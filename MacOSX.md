@@ -84,3 +84,7 @@ Change the type (jpeg, tiff og png)
 Restart SystemUI server
 
     killall SystemUIServer
+
+Longer deep sleep delay for rMBP
+
+    sudo pmset -a standbydelay 57600
