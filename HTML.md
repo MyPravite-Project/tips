@@ -1,3 +1,10 @@
+# Colorpickers
+
+* http://www.eyecon.ro/colorpicker/
+* https://github.com/tkrotoff/jquery-simplecolorpicker
+* http://www.dematte.at/colorPicker/
+* http://bgrins.github.io/spectrum/
+
 # Iframe resize links
 
 * https://github.com/house9/jquery-iframe-auto-height
