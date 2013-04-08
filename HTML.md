@@ -2,6 +2,7 @@
 
 * http://www.eyecon.ro/colorpicker/
 * https://github.com/tkrotoff/jquery-simplecolorpicker
+* http://xaguilars.github.io/bootstrap-colorpicker/
 * http://www.dematte.at/colorPicker/
 * http://bgrins.github.io/spectrum/
 
