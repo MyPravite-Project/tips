@@ -57,3 +57,11 @@ Use fast-export
     cd git_repo
     ~/fast-export/hg-fast-export.sh -r /path/to/old/mercurial_repo
     git checkout HEAD
+
+## Remove files in .gitignore from version control
+
+From http://www.lemoda.net/git/rm-gitignore-files/
+
+    git rm -r --cached .
+    git add .
+    git commit -m ".gitignore is now working"
